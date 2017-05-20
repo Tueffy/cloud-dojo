@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/gorilla/mux"
 	"net/http"
-	"github.com/Deutsche-Boerse/cloud-dojo/simple-go-examples/http/helper"
+	"github.com/Deutsche-Boerse/cloud-dojo/go-examples/http/helper"
 	"encoding/json"
 	"log"
 )

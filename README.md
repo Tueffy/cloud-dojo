@@ -3,13 +3,15 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [Golang](#golang)
+  - [Installing Git](#installing-git)
   - [Installing Git on Windows](#installing-git-on-windows)
   - [Installing Git on OSX](#installing-git-on-osx)
   - [Installing Git on Linux / Debian-ish](#installing-git-on-linux--debian-ish)
-- [Install Go](#install-go)
-  - [Setting up Go on Linux / OSX (macOS)](#setting-up-go-on-linux--osx-macos)
-  - [Setting up Go on Windows](#setting-up-go-on-windows)
+  - [Install Go](#install-go)
+    - [Setting up Go on Linux / OSX (macOS)](#setting-up-go-on-linux--osx-macos)
+    - [Setting up Go on Windows](#setting-up-go-on-windows)
 - [React](#react)
   - [Folder Structure](#folder-structure)
   - [Available Scripts](#available-scripts)
@@ -22,9 +24,11 @@
 
 ## Golang
 
-### Installing Git on Windows
+### Installing Git
 
 Download git from [git-scm](https://git-scm.com/downloads).
+
+### Installing Git on Windows
 
 Unfortunately, Microsoft *might* block the installation of Git. This is due to missing certificates, as most open source
 projects do not have the resources to buy such an certificate from Microsoft. If you see an error like this one
@@ -64,12 +68,12 @@ Everything else should work per default and you should end up with this screen:
 sudo apt-get install git
 ```
 
-## Install Go
+### Install Go
 
 Download and install the right package for your system from
 [golang.org/dl](https://golang.org/dl).
 
-### Setting up Go on Linux / OSX (macOS)
+#### Setting up Go on Linux / OSX (macOS)
 
 Open the OSX Terminal:
 
@@ -94,7 +98,7 @@ source ~/.bash_profile
 go help
 ```
 
-### Setting up Go on Windows
+#### Setting up Go on Windows
 
 Open the start menu, type `cmd.exe` and right click on **Open as administrator**
 

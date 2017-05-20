@@ -18,9 +18,9 @@ import (
 
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
-	. "github.com/Deutsche-Boerse/cloud-dojo/go-example/store"
-	"github.com/Deutsche-Boerse/cloud-dojo/go-example/store/memory"
-	"github.com/Deutsche-Boerse/cloud-dojo/go-example/store/postgres"
+	. "github.com/Deutsche-Boerse/cloud-dojo/advanced-go-example/store"
+	"github.com/Deutsche-Boerse/cloud-dojo/advanced-go-example/store/memory"
+	"github.com/Deutsche-Boerse/cloud-dojo/advanced-go-example/store/postgres"
 	"time"
 )
 

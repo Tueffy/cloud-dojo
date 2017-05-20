@@ -252,7 +252,7 @@ The following screens should be similar to what you see on your screen:
 
 ![](docs/intellij-home.png)
 
-use this link as repository url `https://github.com/Deutsche-Boerse/cloud-dojo/go-example.git` and your workspace directory (e.g. `/Users/aeneas/workspace/go`)
+use this link as repository url `https://github.com/Deutsche-Boerse/cloud-dojo/advanced-go-example.git` and your workspace directory (e.g. `/Users/aeneas/workspace/go`)
 as parent directory.
 
 ![](docs/intellij-clone.png)
@@ -364,7 +364,7 @@ docker rm <name>
 ### Build image using Dockerfile and start container
 
 ```
-cd $GOPATH/src/github.com/Deutsche-Boerse/cloud-dojo/go-example
+cd $GOPATH/src/github.com/Deutsche-Boerse/cloud-dojo/advanced-go-example
 docker build -t workshop-dbg .
 docker run -d --publish 5678:5678 workshop-dbg
 open http://$(docker-machine ip default):5678/memory/contacts
@@ -421,7 +421,7 @@ open http://$(docker-machine ip default):9090
 **Build docker image and run it locally**
 
 ```
-cd $GOPATH/src/github.com/Deutsche-Boerse/cloud-dojo/go-example
+cd $GOPATH/src/github.com/Deutsche-Boerse/cloud-dojo/advanced-go-example
 docker build -t gcr.io/dbg-workshop-1298/workshop-dbg .
 docker run -d --publish 9090:5678 gcr.io/dbg-workshop-1298/workshop-dbg
 open http://$(docker-machine ip default):9090/memory/contacts

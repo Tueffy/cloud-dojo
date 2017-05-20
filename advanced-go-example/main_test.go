@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
-	. "github.com/Deutsche-Boerse/cloud-dojo/go-example/store"
-	"github.com/Deutsche-Boerse/cloud-dojo/go-example/store/memory"
+	. "github.com/Deutsche-Boerse/cloud-dojo/advanced-go-example/store"
+	"github.com/Deutsche-Boerse/cloud-dojo/advanced-go-example/store/memory"
 	"github.com/parnurzeal/gorequest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

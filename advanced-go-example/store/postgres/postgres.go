@@ -4,7 +4,7 @@ import (
 	"fmt"
 	log "github.com/Sirupsen/logrus"
 	"github.com/jmoiron/sqlx"
-	"github.com/Deutsche-Boerse/cloud-dojo/go-example/store"
+	"github.com/Deutsche-Boerse/cloud-dojo/advanced-go-example/store"
 )
 
 const contactTable = "dbg_contacts"

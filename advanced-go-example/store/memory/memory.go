@@ -2,7 +2,7 @@ package memory
 
 import (
 	"errors"
-	"github.com/Deutsche-Boerse/cloud-dojo/go-example/store"
+	"github.com/Deutsche-Boerse/cloud-dojo/advanced-go-example/store"
 )
 
 type InMemoryStore struct {

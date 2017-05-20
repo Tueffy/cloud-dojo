@@ -7,7 +7,7 @@ import (
 	"time"
 
 	_ "github.com/lib/pq"
-	"github.com/Deutsche-Boerse/cloud-dojo/go-example/store"
+	"github.com/Deutsche-Boerse/cloud-dojo/advanced-go-example/store"
 	"github.com/pborman/uuid"
 	"github.com/stretchr/testify/assert"
 	"log"

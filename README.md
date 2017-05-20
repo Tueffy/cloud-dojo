@@ -4,11 +4,12 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
+- [Slides](#slides)
 - [Golang](#golang)
   - [Installing Git](#installing-git)
-  - [Installing Git on Windows](#installing-git-on-windows)
-  - [Installing Git on OSX](#installing-git-on-osx)
-  - [Installing Git on Linux / Debian-ish](#installing-git-on-linux--debian-ish)
+    - [Installing Git on Windows](#installing-git-on-windows)
+    - [Installing Git on OSX](#installing-git-on-osx)
+    - [Installing Git on Linux / Debian-ish](#installing-git-on-linux--debian-ish)
   - [Install Go](#install-go)
     - [Setting up Go on Linux / OSX (macOS)](#setting-up-go-on-linux--osx-macos)
     - [Setting up Go on Windows](#setting-up-go-on-windows)
@@ -21,6 +22,11 @@
   - [Installing a Dependency](#installing-a-dependency)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Slides
+
+* Introduction to React: https://arekkas.github.io/slides-pti-react-electron/
+* Introduction to Golang: https://arekkas.github.io/slides-pti-go-dojo/
 
 ## Golang
 

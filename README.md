@@ -28,7 +28,7 @@
 
 Download git from [git-scm](https://git-scm.com/downloads).
 
-### Installing Git on Windows
+#### Installing Git on Windows
 
 Unfortunately, Microsoft *might* block the installation of Git. This is due to missing certificates, as most open source
 projects do not have the resources to buy such an certificate from Microsoft. If you see an error like this one
@@ -49,7 +49,7 @@ by pressing **Next >**. When the installer is done, you should see this:
 
 ![](docs/git-install-windows-success.png)
 
-### Installing Git on OSX
+#### Installing Git on OSX
 
 Download git from [git-scm](https://git-scm.com/downloads).
 
@@ -62,7 +62,7 @@ Everything else should work per default and you should end up with this screen:
 
 ![](docs/mac-git-success.png)
 
-### Installing Git on Linux / Debian-ish
+#### Installing Git on Linux / Debian-ish
 
 ```
 sudo apt-get install git
